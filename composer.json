@@ -1,0 +1,19 @@
+{
+  "name": "openmia/composer",
+  "description": "openMia Composer",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Pascal",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+        "psr-4": {
+            "openMia\\composer\\": "src/"
+        }
+    }
+}
